@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body{
+	background-image: url("https://us.123rf.com/450wm/jossdiim/jossdiim1511/jossdiim151100007/48038780-stock-vector-cloud-service-internet-and-computer-communication-information-server-flat-vector-illustration.jpg?ver=6");
+	background-repeat: no-repeat;
+	background-size: 550px 350px;
+	background-attachment: fixed;
+	background-position:center bottom;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.field input{
+	width: 25%;
+	height: 5%;
+	border:1px;
+	border-radius: 5px;
+	padding: 8px 15px 8px 15px;
+	margin: 10px 0px 15px 0px;
+	box-shadow: 1px 1px 2px 1px grey;
+}
+
+.field input:focus{
+	outline: 0;
+}
+
+.send input{
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	border:1px;
+	border-radius: 5px;
+	background-color: #00b7c2;
+	padding: 8px 15px 8px 15px;
+	margin: 10px 0px 15px 0px;
+	box-shadow: 1px 1px 2px 1px grey;
+	left: 37%;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.send input:hover{
+	background-color: white;
+	color: #00b7c2;
+}
+
+.send input:focus{
+	outline: 0;
+}
+
+.back a{
+	text-decoration: none;
+	background-color: #00b7c2;
+	position: absolute;
+	width: 130px;
+	height: 35px;
+	border-radius: 5px;
+	border:none;
+	text-align: center;
+	box-shadow: 1px 1px 2px 1px grey;
+	line-height: 37px;
+	color: white;
+	top: 40%;
+	left: 50%;
+	text-transform: uppercase;
+	font-size: 80%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.back a:hover{
+	background-color: white;
+	color: #00b7c2;
+}
